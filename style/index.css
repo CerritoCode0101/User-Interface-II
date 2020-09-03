@@ -88,7 +88,7 @@ video {
   vertical-align: baseline;
 }
 * {
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   /*border: solid 4px green;*/
   max-width: 100%;
 }
@@ -96,7 +96,7 @@ video {
 h1 {
   text-align: center;
   font-size: 60px;
-  margin-top: 3%;
+  margin-top: 30px;
 }
 
 header nav {
@@ -104,7 +104,14 @@ header nav {
   justify-content: center;
   padding: 15px;
 }
-
+header nav button {
+  width: 10%;
+  height: 80px;
+  border: 2px black solid;
+}
+header nav button:hover{
+  color:white;
+  background-color: black;}
 h2 {
   text-align: center;
   font-size: 50px;
@@ -113,24 +120,52 @@ h2 {
 header p {
   padding: 2%;
 }
-#centerpic {height: 75%;
-width: 100%;}
-#projects {
+#centerpic {
   display: flex;
-
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+#centerpic img {
+  height: 100%;
+}
+#projects {
+  /* background-color: aqua; */
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin: 0%;
+  vertical-align: top !important;
+  /* align-items: stretch; */
 }
 #projects img {
-  width: 10%;
-  height: 20%;
+  display: flex;
+  width: 20%;
+  margin: 5px 5px 5px 0;
 }
-footer{background-color:grey;}
+footer {
+  background-color: grey;
+}
 footer nav {
   display: flex;
   justify-content: center;
-  padding:35px;
+  padding: 35px;
 }
 
-footer nav button{width: 10%;
-height: 80px;
-border:2px black solid;
-border-radius: 10px;}
+footer nav button {
+  width: 10%;
+  height: 80px;
+  border: 2px black solid;
+}
+#text {
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  /* background-color: darkgreen; */
+}
