@@ -1,4 +1,5 @@
 /* Add CSS styling here */
+@import url('https://fonts.googleapis.com/css2?family=Kufam:ital,wght@1,500&display=swap');
 html,
 body,
 div,
@@ -88,7 +89,7 @@ video {
   vertical-align: baseline;
 }
 * {
-  /* box-sizing: border-box; */
+  box-sizing: border-box;
   /*border: solid 4px green;*/
   max-width: 100%;
 }
@@ -103,13 +104,18 @@ header nav {
   display: flex;
   justify-content: center;
   padding: 15px;
+  text-align:center;
 }
-header nav button {
+
+  header nav a {
   width: 10%;
-  height: 80px;
+  height: 40px;
   border: 2px black solid;
+  font-family: 'Kufam', cursive;
+  color:black;
+  padding:10px;
 }
-header nav button:hover{
+header nav a:hover{
   color:white;
   background-color: black;}
 h2 {
@@ -119,6 +125,8 @@ h2 {
 
 header p {
   padding: 2%;
+  text-align: center;
+  font-size: 17px;
 }
 #centerpic {
   display: flex;
@@ -154,18 +162,20 @@ footer nav {
 
 footer nav button {
   width: 10%;
-  height: 80px;
+  height: 40px;
   border: 2px black solid;
+  font-family: 'Kufam', cursive;
 }
 #text {
   width: 15%;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size:17px;
+  text-align: center;
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  /* background-color: darkgreen; */
+  font-family: 'Kufam', cursive;
+
 }
