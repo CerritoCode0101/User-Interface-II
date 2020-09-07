@@ -185,15 +185,23 @@ body {
 header nav a {
   width: 10%;
   height: 2%;
-  border: 2px black solid;
+  border: .2rem black solid;
   font-family: 'Kufam', cursive;
   color:black;
   padding:.5rem;
-  font-size:.5rem;
+  font-size:.7rem;
 }
 
 
 /* styles for Phone at 500px */
-@media(max-width:500px){
+@media(max-width:500px){ body{background-color: lightcoral;}
+header nav a {
+  width: 10%;
+  height: 2%;
+  border: 2px black solid;
+  font-family: 'Kufam', cursive;
+  color:black;
+  padding:.5rem;
+  font-size:.4rem;
 
 }
