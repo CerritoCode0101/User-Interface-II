@@ -103,24 +103,24 @@ h1 {
 header nav {
   display: flex;
   justify-content: center;
-  padding: 15px;
+  padding: 2%;
   text-align:center;
 }
 
   header nav a {
   width: 10%;
-  height: 40px;
+  height: 2%;
   border: 2px black solid;
   font-family: 'Kufam', cursive;
   color:black;
-  padding:10px;
+  padding:.5rem;
 }
 header nav a:hover{
   color:white;
   background-color: black;}
 h2 {
   text-align: center;
-  font-size: 50px;
+  font-size: 5rem;
 }
 
 header p {
@@ -144,7 +144,7 @@ header p {
   justify-content: space-around;
   margin: 0%;
   vertical-align: top !important;
-  /* align-items: stretch; */
+  
 }
 #projects img {
   display: flex;
@@ -177,5 +177,23 @@ footer nav button {
 
 body {
   font-family: 'Kufam', cursive;
+
+}
+/*styles for tablet at 800px*/
+@media(max-width:800px) { body{background-color: darkgrey;
+}
+header nav a {
+  width: 10%;
+  height: 2%;
+  border: 2px black solid;
+  font-family: 'Kufam', cursive;
+  color:black;
+  padding:.5rem;
+  font-size:.5rem;
+}
+
+
+/* styles for Phone at 500px */
+@media(max-width:500px){
 
 }
