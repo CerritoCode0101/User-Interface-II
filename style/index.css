@@ -185,11 +185,22 @@ body {
 header nav a {
   width: 10%;
   height: 2%;
-  border: .2rem black solid;
+  border: 1px black solid;
   font-family: 'Kufam', cursive;
   color:black;
   padding:.5rem;
-  font-size:.7rem;
+  font-size:.7rem;}
+  h2{ font-size:3rem;}
+  #text {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:.7rem;
+    text-align: center;}
+
+    header p{font-size:.7rem;}
+  
 }
 
 
@@ -198,10 +209,18 @@ header nav a {
 header nav a {
   width: 10%;
   height: 2%;
-  border: 2px black solid;
+  border: 1px black solid;
   font-family: 'Kufam', cursive;
   color:black;
   padding:.5rem;
-  font-size:.4rem;
+  font-size:.4rem;}
+  h2{font-size:1.5rem;}
+  #text {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:.7rem;
+    text-align: center;
 
 }
